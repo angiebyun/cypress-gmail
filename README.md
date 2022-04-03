@@ -3,12 +3,14 @@
 <!-- ABOUT THE PROJECT -->
 ## 🌶️ About The Project
 
-This project automates some main functionalities of Gmail.
+This project automates some main functionalities of Gmail. 
 * Create Draft
 * Send Email from Draft
 * Send Email from Compose
 * View Email Thread
 * Trash Email
+
+The test cases above were chosen because these are the main functionality of an email system considering that the meaning of email (Electronic mail) is a mode of exchanging messages among people through electronic devices. The user should be able to create drafts, view emails, compose and send an email, send from drafts and trash emails in a fully functional emailing system. 
 
 ### 🌶️ Built With
 

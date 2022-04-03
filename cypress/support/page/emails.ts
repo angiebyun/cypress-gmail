@@ -20,6 +20,7 @@ class emails {
         raw = msg.asRaw()
         msg_body = btoa(raw)
         
+        // get access token for auth
         cy.get('@access_token').then((token) => {
           auth = 'Bearer ' + token
 
@@ -36,6 +37,7 @@ class emails {
               }
             }
           }).then(({ body }) => {
+            // save response to fixture and wrap msg id value for validation use
             cy.writeFile('cypress/fixtures/draft_created.json', body)
             cy.wrap(body.id).as('msg_id')
           })
@@ -50,6 +52,7 @@ class emails {
 
         let msg_body: string, raw:string
           
+        // create MIME message then convert it to base64
         const msg = createMimeMessage()
         msg.setSender({name: 'Angie Spicy', addr: Cypress.env("user_id")})
         msg.setRecipient(Cypress.env("user_id"))
@@ -128,7 +131,8 @@ class emails {
             let auth = 'Bearer ' + token
             cy.get('@msg_id').then((id) => {
                 let url: string
-
+                
+                // check if it's draft or messages
                 if (type == "draft") url = 'https://gmail.googleapis.com/gmail/v1/users/' + Cypress.env("user_id")  + '/drafts/' + id
                 else url = 'https://gmail.googleapis.com/gmail/v1/users/' + Cypress.env("user_id")  + '/messages/' + id
 
@@ -140,6 +144,7 @@ class emails {
                         'Authorization': auth
                     }
                 }).then(({body}) => {
+                    // validate that the response body contains received value
                     if (type == "draft") expect(body.message.payload.headers[0].name).to.eq('Received')
                     else expect(body.payload.headers[0].name).to.eq('Received')
                     cy.writeFile('cypress/fixtures/validate.json', body)
