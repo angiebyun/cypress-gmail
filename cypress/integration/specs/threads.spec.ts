@@ -3,7 +3,7 @@ import email  from "../../support/page/emails";
 
 describe('Gmail - Check Email Threads', function () {
     beforeEach(function () {
-      cy.loginByGoogleApi()
+      cy.get_google_token()
     })
   
     it('Check ability to view email threads', function () {

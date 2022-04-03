@@ -3,7 +3,7 @@ import email  from "../../support/page/emails";
 
 describe('Gmail - Create Draft', function () {
     beforeEach(function () {
-      cy.loginByGoogleApi()
+      cy.get_google_token()
     })
   
     it('Check ability to create draft and validate', function () {

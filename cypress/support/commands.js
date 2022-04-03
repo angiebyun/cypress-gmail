@@ -1,5 +1,5 @@
 
-Cypress.Commands.add('loginByGoogleApi', () => {
+Cypress.Commands.add('get_google_token', () => {
     cy.log('Logging in to Google')
     cy.request({
       method: 'POST',

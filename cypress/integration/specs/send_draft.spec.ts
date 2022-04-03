@@ -3,7 +3,7 @@ import email  from "../../support/page/emails";
 
 describe('Gmail - Send Email from Draft', function () {
     beforeEach(function () {
-      cy.loginByGoogleApi()
+      cy.get_google_token()
     })
   
     it('Check ability to send a drafted email', function () {

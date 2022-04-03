@@ -2,7 +2,7 @@ import email  from "../../support/page/emails";
 
 describe('Gmail - Trash Emails', function () {
     beforeEach(function () {
-      cy.loginByGoogleApi()
+      cy.get_google_token()
     })
   
     it('Check ability to trash emails', function () {
