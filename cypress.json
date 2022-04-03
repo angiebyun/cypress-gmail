@@ -1,0 +1,15 @@
+{
+    "env": {
+        "baseUrl": "https://www.google.com",
+        "googleClientId": "245096629492-vce8m73dba1g6nqgpg3ji98po23rnk9i.apps.googleusercontent.com",
+        "googleClientSecret": "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",
+        "googleRefreshToken": "1//0435m4-0qrmJ-CgYIARAAGAQSNwF-L9IrLTrbzsYkE5rZ18hhvka2QIxj_PceR5vI6_kU8KPqZMopWJVfOO_qXfcVkPlbV6hlzFc",
+        "user_id": "spicychili12345@gmail.com"
+    },
+    "defaultCommandTimeout":60000,
+    "pageLoadTimeout ": 60000,
+    "viewportWidth": 2560,
+    "viewportHeight": 1440,
+    "chromeWebSecurity": false,
+    "watchForFileChanges": false
+}

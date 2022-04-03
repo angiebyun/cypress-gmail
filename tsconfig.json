@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+  "target": "es2016",
+  "lib": ["es5", "dom"],
+  "module": "commonjs",
+  "esModuleInterop": true,  
+  "forceConsistentCasingInFileNames": true, 
+  "strict": true, 
+  "types": ["cypress", "./support", "node"]
+ },
+ "include": ["**/*.ts", "cypress/support/index.js", "cypress/support/commands.js", "cypress/integration/specs/send_receive_sms_email.spec.js"]
+}

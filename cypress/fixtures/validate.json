@@ -1,0 +1,56 @@
+{
+  "id": "17ff140487d4621c",
+  "threadId": "17ff140487d4621c",
+  "labelIds": [
+    "UNREAD",
+    "SENT",
+    "INBOX"
+  ],
+  "snippet": "Hi, I&#39;m a simple text from send email!",
+  "payload": {
+    "partId": "",
+    "mimeType": "text/plain",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Received",
+        "value": "from 245096629492 named unknown by gmailapi.google.com with HTTPREST; Sun, 3 Apr 2022 14:06:36 -0700"
+      },
+      {
+        "name": "Date",
+        "value": "Sun, 3 Apr 2022 14:06:36 -0700"
+      },
+      {
+        "name": "From",
+        "value": "Angie Spicy <spicychili12345@gmail.com>"
+      },
+      {
+        "name": "To",
+        "value": "<spicychili12345@gmail.com>"
+      },
+      {
+        "name": "Message-Id",
+        "value": "<CAHU4NaKt=neXjwSW1FK9Xy5smvfuRFf0_6zWG_cmH08ytz8Cvw@mail.gmail.com>"
+      },
+      {
+        "name": "Subject",
+        "value": "🚀 hewo!"
+      },
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "Content-Type",
+        "value": "text/plain; charset=UTF-8"
+      }
+    ],
+    "body": {
+      "size": 38,
+      "data": "SGksIEknbSBhIHNpbXBsZSB0ZXh0IGZyb20gc2VuZCBlbWFpbCE="
+    }
+  },
+  "sizeEstimate": 461,
+  "historyId": "8616",
+  "internalDate": "1649019996000"
+}
