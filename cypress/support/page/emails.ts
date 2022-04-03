@@ -13,7 +13,7 @@ class emails {
         const msg = createMimeMessage()
         msg.setSender({name: 'Angie Spicy', addr: Cypress.env("user_id")})
         msg.setRecipient(Cypress.env("user_id"))
-        msg.setSubject('🚀 hewo!')
+        msg.setSubject('🌶️ Piper here!')
         msg.setMessage('text/plain', `Hi, I'm a simple text from draft!`)
 
         // convert text to base64
@@ -53,7 +53,7 @@ class emails {
         const msg = createMimeMessage()
         msg.setSender({name: 'Angie Spicy', addr: Cypress.env("user_id")})
         msg.setRecipient(Cypress.env("user_id"))
-        msg.setSubject('🚀 hewo!')
+        msg.setSubject('🌶️ Piper here!')
         msg.setMessage('text/plain', `Hi, I'm a simple text from draft sending!`)
   
         raw = msg.asRaw()
@@ -96,7 +96,7 @@ class emails {
             const msg = createMimeMessage()
             msg.setSender({name: 'Angie Spicy', addr: Cypress.env("user_id")})
             msg.setRecipient(Cypress.env("user_id"))
-            msg.setSubject('🚀 hewo!')
+            msg.setSubject('🌶️ Piper here!')
             msg.setMessage('text/plain', `Hi, I'm a simple text from send email!`)
 
             raw = msg.asRaw()
