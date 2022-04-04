@@ -45,7 +45,7 @@ Clone repository into working directory, this repository does not include node m
 <!-- USAGE EXAMPLES -->
 ## 🌶️ Usage
 
-To run the Cypress tests in UI, navigate to working directory in command then open Cypress using command below.
+To run the Cypress tests in UI, navigate to working directory in command then open Cypress using command below. Select Electron browser to run files.
 
 * Open Cypress
   ```sh
