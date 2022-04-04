@@ -1,6 +1,9 @@
 
+/** 
+ * Get access token from Google API to use in gmail requests
+ */
 Cypress.Commands.add('get_google_token', () => {
-    cy.log('Logging in to Google')
+
     cy.request({
       method: 'POST',
       url: 'https://www.googleapis.com/oauth2/v4/token',
