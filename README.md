@@ -4,11 +4,11 @@
 ## 🌶️ About The Project
 
 This project automates some main functionalities of Gmail. 
-* **Create Draft** - the user should be allowed to save their email if they want to come back to it later
-* **Send Email from Draft**- the user should be allowed to come back to a drafted email and send from their drafts when they’ve gotten all the information to finish an email
-* **Send Email from Compose** - the user should be allowed to compose and send an email with information including sender, recipient, subject, and message body
-* **View Email Thread** - the user should be allowed to read their emails with recipient, sender, and message body information
-* **Trash Email** - the user should be allowed to trash their spam or irrelevant emails that don’t need to be in the inbox
+* **_Create Draft_** - the user should be allowed to save their email if they want to come back to it later
+* **_Send Email from Draft_**- the user should be allowed to come back to a drafted email and send from their drafts when they’ve gotten all the information to finish an email
+* **_Send Email from Compose_** - the user should be allowed to compose and send an email with information including sender, recipient, subject, and message body
+* **_View Email Thread_** - the user should be allowed to read their emails with recipient, sender, and message body information
+* **_Trash Email_** - the user should be allowed to trash their spam or irrelevant emails that don’t need to be in the inbox
 
 The test cases above were chosen because these are the main functionality of an email system considering that the meaning of email (Electronic mail) is a mode of exchanging messages among people through electronic devices. The user should be able to create drafts, view emails, compose and send an email, send from drafts and trash emails in a fully functional emailing system. 
 
