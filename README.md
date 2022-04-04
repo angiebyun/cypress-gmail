@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## 🌶️ About The Project
 
-This project automates some main functionalities of Gmail. 
+This project automates some main functionalities of Gmail using Gmail API.
 * **_Create Draft_** - the user should be allowed to save their email if they want to come back to it later
 * **_Send Email from Draft_**- the user should be allowed to come back to a drafted email and send from their drafts when they’ve gotten all the information to finish an email
 * **_Send Email from Compose_** - the user should be allowed to compose and send an email with information including sender, recipient, subject, and message body
