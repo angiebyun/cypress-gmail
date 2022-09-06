@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <!-- ABOUT THE PROJECT -->
-## 🌶️ About The Project
+## 👻 About The Project
 
 This project automates some main functionalities of Gmail using Gmail API.
 * **_Create Draft_** - the user should be allowed to save their email if they want to come back to it later
@@ -12,18 +12,18 @@ This project automates some main functionalities of Gmail using Gmail API.
 
 The test cases above were chosen because these are the main functionality of an email system considering that the meaning of email (Electronic mail) is a mode of exchanging messages among people through electronic devices. The user should be able to create drafts, view emails, compose and send an email, send from drafts and trash emails in a fully functional emailing system. 
 
-### 🌶️ Built With
+### 👻 Built With
 
 * [Cypress](https://www.cypress.io)
 * [NPM](https://www.npmjs.com)
 
 
 <!-- GETTING STARTED -->
-## 🌶️ Getting Started
+## 👻 Getting Started
 
 Clone repository into working directory, this repository does not include node modules - instructions on installing these modules can be found below.
 
-### 🌶️ Prerequisites
+### 👻 Prerequisites
 
 [Node.js](https://nodejs.org/en/download/) and npm must be installed
 * npm
@@ -43,7 +43,7 @@ Clone repository into working directory, this repository does not include node m
    ```
 
 <!-- USAGE EXAMPLES -->
-## 🌶️ Usage
+## 👻 Usage
 
 To run the Cypress tests in UI, navigate to working directory in command then open Cypress using command below. Select Electron browser to run files.
 
@@ -59,19 +59,19 @@ To run the Cypress tests in headless, navigate to working directory in command t
   ```
 
 <!-- LICENSE -->
-## 🌶️ License
+## 👻 License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## 🌶️ Contact
+## 👻 Contact
 
 Project Link: [https://github.com/angiebyun/cypress-gmail](https://github.com/angiebyun/cypress-gmail)
 
 
 <!-- REFERENCES -->
-## 🌶️ References
+## 👻 References
 
 * [Google Developers > Gmail API](https://developers.google.com/gmail/api/reference/rest)
 * [Oauth Playground](https://developers.google.com/oauthplayground/)
